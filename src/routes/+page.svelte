@@ -1,6 +1,8 @@
 <script>
     import "./style.css";
 
+    import {Question, Questions} from "$lib/questions";
+
     const questions = new Questions();
     let currQuestion = questions.getQuestion();
 
